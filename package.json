@@ -1,0 +1,37 @@
+{
+  "name": "mocha-unit-tests-examples",
+  "version": "1.0.0",
+  "description": "Examples of unit tests with Mocha, Chai and Sinon",
+  "main": "server.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ASerputko/mocha-unit-tests-examples.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "sinon"
+  ],
+  "author": "Andrii Serputko <aserputko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASerputko/mocha-unit-tests-examples/issues"
+  },
+  "homepage": "https://github.com/ASerputko/mocha-unit-tests-examples",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-jscs": "^2.4.0",
+    "jscs-stylish": "^0.3.1",
+    "jshint-stylish": "^2.1.0",
+    "load-grunt-tasks": "^3.3.0",
+    "time-grunt": "^1.2.2"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
